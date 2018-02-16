@@ -1,0 +1,18 @@
+{
+  "name": "tonyesper",
+  "description": "Novo site institucional Tony Esper.",
+  "main": "index.html",
+  "authors": [
+    "Frederic Chien"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/fredchien/tonyesper",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets",
+    "test",
+    "tests"
+  ]
+}

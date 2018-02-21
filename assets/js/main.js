@@ -40,19 +40,19 @@ $(document).ready(function() {
 
     });
 
-      // carrossel clientes home
-    $("#home-clientes-carousel").owlCarousel({
-        items: 4,
-        nav: false,
-        dots: true,
-
+      // carrossel banner home
+    $("#home-banner-carousel").owlCarousel({
+        items: 1,
+        nav: true,
+        dots: false,
+        navText: ['<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>'],
         loop: true,
 
         responsive: {
             0: { items: 1, },
-            450: { items: 2, },
-            768: { items: 3, },
-            992: { items: 4, },
+            450: { items: 1, },
+            768: { items: 1, },
+            992: { items: 1, },
         },
     });
     $('.jarallax').jarallax({
